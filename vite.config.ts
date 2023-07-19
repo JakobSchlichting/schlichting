@@ -6,6 +6,5 @@ export default defineConfig({
     plugins: [solid({
         adapter: vercel({}),
         ssr: true,
-        prerenderRoutes: ["/", "/about"]
     })],
 });
