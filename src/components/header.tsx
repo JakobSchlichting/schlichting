@@ -3,8 +3,15 @@ import { A } from 'solid-start';
 export default function SiteHeader() {
 
     return (
-        <header class="bg-slate-700 text-slate-50 p-5">
-            <A href="/"><span class="py-3 px-8 rounded-md hover:bg-slate-800 hover:cursor-pointer">schlichting.dev</span></A>
+        <header class="bg-neutral-800 text-neutral-50 p-5 flex">
+            <A href="/" class="px-5 cursor-default font-bold">schlichting.dev</A>
+            <nav class="ml-10">
+                <ul class="">
+                    <A class="px-5" href="/articles">articles</A>
+                    <A class="px-5" href="/projects">projects</A>
+                    <A class="px-5" href="/about">about</A>
+                </ul>
+            </nav>
         </header>
     );
 }
