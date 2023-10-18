@@ -18,9 +18,13 @@
   "dependencies": {
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.8.2",
+    "@uploadthing/solid": "^5.4.0",
+    "attr-accept": "^2.2.2",
     "solid-js": "^1.7.2",
     "solid-start": "^0.2.26",
-    "undici": "^5.15.1"
+    "solidjs-dropzone": "^1.0.0",
+    "undici": "^5.15.1",
+    "uploadthing": "^5.7.1"
   },
   "engines": {
     "node": ">=18"
