@@ -1,5 +1,5 @@
 // @refresh reload
-import { Suspense } from "solid-js";
+import { Suspense } from 'solid-js';
 import {
   Body,
   ErrorBoundary,
@@ -10,9 +10,10 @@ import {
   Routes,
   Scripts,
   Title,
-} from "solid-start";
+} from 'solid-start';
 import SiteHeader from './components/header';
-import "./root.css";
+import './root.css';
+import '@uploadthing/solid/styles.css';
 
 export default function Root() {
   return (
